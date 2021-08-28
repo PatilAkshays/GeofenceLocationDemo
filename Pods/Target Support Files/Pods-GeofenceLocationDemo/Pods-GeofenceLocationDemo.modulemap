@@ -1,0 +1,6 @@
+framework module Pods_GeofenceLocationDemo {
+  umbrella header "Pods-GeofenceLocationDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
