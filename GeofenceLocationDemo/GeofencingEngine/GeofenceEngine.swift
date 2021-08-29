@@ -67,8 +67,14 @@ class GeofenceEngine: NSObject {
         for region in monitoredRegions{
             locationManager.stopMonitoring(for: region)
         }
-        */
+       // */
         
+        /*
+        if locationManager.monitoredRegions.count >= 20 // check current monitored region Apple allowed only 20 at time
+        {
+            
+        }
+         // */
         locationManager.startMonitoring(for: geoFenceRegion)
 
     }

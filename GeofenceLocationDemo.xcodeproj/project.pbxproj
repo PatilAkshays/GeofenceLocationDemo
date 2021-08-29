@@ -29,6 +29,7 @@
 		5197088226DAB21400EE2CD6 /* AddLatiLongTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5197088126DAB21300EE2CD6 /* AddLatiLongTest.swift */; };
 		5197089226DAB3E400EE2CD6 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5197089126DAB3E400EE2CD6 /* Validation.swift */; };
 		519708AD26DAB4C700EE2CD6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5197083626DAB11700EE2CD6 /* GoogleService-Info.plist */; };
+		519708BE26DB2D1700EE2CD6 /* LocationFile.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 519708BD26DB2D1600EE2CD6 /* LocationFile.gpx */; };
 		BD0E44BCF3DFBE85F2812EEA /* Pods_GeofenceLocationDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239ECFA64D56EBAC44DD8100 /* Pods_GeofenceLocationDemo.framework */; };
 		D50EB449552C75185D8FF0BB /* Pods_GeofenceLocationDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5902445C168E3E46DE0DFAC /* Pods_GeofenceLocationDemoTests.framework */; };
 		F3522036F834B9CA09A6AA20 /* Pods_GeofenceLocationDemo_GeofenceLocationDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F7649711F91CE7E7D5EB1C4 /* Pods_GeofenceLocationDemo_GeofenceLocationDemoUITests.framework */; };
@@ -84,6 +85,7 @@
 		5197087C26DAB1F900EE2CD6 /* APIResponseValidationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponseValidationTest.swift; sourceTree = "<group>"; };
 		5197088126DAB21300EE2CD6 /* AddLatiLongTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLatiLongTest.swift; sourceTree = "<group>"; };
 		5197089126DAB3E400EE2CD6 /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		519708BD26DB2D1600EE2CD6 /* LocationFile.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = LocationFile.gpx; sourceTree = "<group>"; };
 		7E4B233ED0BF48B2DE4C738B /* Pods-GeofenceLocationDemo-GeofenceLocationDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeofenceLocationDemo-GeofenceLocationDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-GeofenceLocationDemo-GeofenceLocationDemoUITests/Pods-GeofenceLocationDemo-GeofenceLocationDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7F7649711F91CE7E7D5EB1C4 /* Pods_GeofenceLocationDemo_GeofenceLocationDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeofenceLocationDemo_GeofenceLocationDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5902445C168E3E46DE0DFAC /* Pods_GeofenceLocationDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeofenceLocationDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +124,7 @@
 		519707EA26DAB04700EE2CD6 = {
 			isa = PBXGroup;
 			children = (
+				519708BD26DB2D1600EE2CD6 /* LocationFile.gpx */,
 				519707F526DAB04700EE2CD6 /* GeofenceLocationDemo */,
 				5197080F26DAB04900EE2CD6 /* GeofenceLocationDemoTests */,
 				5197081A26DAB04900EE2CD6 /* GeofenceLocationDemoUITests */,
@@ -399,6 +402,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				519708BE26DB2D1700EE2CD6 /* LocationFile.gpx in Resources */,
 				5197080626DAB04900EE2CD6 /* LaunchScreen.storyboard in Resources */,
 				519708AD26DAB4C700EE2CD6 /* GoogleService-Info.plist in Resources */,
 				5197080326DAB04900EE2CD6 /* Assets.xcassets in Resources */,
